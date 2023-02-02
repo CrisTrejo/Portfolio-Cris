@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/norwester');
+@import url('https://fonts.cdnfonts.com/css/resfire');
+body{
+    background: url(../Images/fondo5.png)no-repeat center center fixed;
+    max-width: 100%;
+    height: auto;
+    background-color: black;
+}
+.font{
+    display: flex;
+    font-family: 'Norwester', sans-serif;
+                                                
+    color:rgb(96, 208, 21);
+    font-size:48px;
+   
+   padding-left:15vw ;
+   padding-right: 15vw;
+   flex-direction: column;
+   justify-content: center;
+   
+    
+    
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    
+}
+.line{
+    display: flex;
+    border-left: 4px solid black;
+    height: 91.5vh;
+    border-color: greenyellow;
+   
+
+}

@@ -1,0 +1,28 @@
+/* Estilos para la barra de navegación */
+@import url('https://fonts.cdnfonts.com/css/digital-readout-expupright');
+
+.navbar {
+    display: flex; /* Utilizamos flexbox para alinear los elementos de la barra horizontalmente */
+    justify-content: space-between; /* Distribuimos los elementos con espacio entre ellos */
+    align-items: center; /* Alineamos los elementos al centro verticalmente */
+    height: 60px; /* Establecemos una altura para la barra */
+    background-color: #333; /* Establecemos un color de fondo oscuro para la barra */
+    color: #fff; /* Establecemos un color blanco para el texto */
+    font-size: 18px; /* Establecemos un tamaño de fuente para el texto */
+    padding: 0 20px; /* Agregamos un espacio de relleno a ambos lados de la barra */
+    font-family: 'Digital Readout ExpUpright', sans-serif;
+  }
+  
+  /* Estilos para los enlaces de la barra de navegación */
+  .navbar a {
+    color:rgb(96, 208, 21);/* Establecemos un color blanco para los enlaces */
+    text-decoration: none; /* Quitamos el subrayado de los enlaces */
+    margin: 0 10px; /* Agregamos un margen a ambos lados de cada enlace */
+  }
+  
+  /* Estilos para el enlace activo de la barra de navegación */
+  .navbar a.active {
+    color:white; /* Establecemos un color azul claro para el enlace activo */
+    font-weight: bold; /* Negrita el texto del enlace activo */
+
+  }
