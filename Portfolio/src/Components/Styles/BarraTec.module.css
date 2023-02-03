@@ -1,0 +1,12 @@
+.imagen{
+    width:5vw ;
+    height:7vh ;
+    filter: grayscale(60%);
+}
+
+/* .contenedor{
+display: flex;
+justify-content: space-between;
+}
+.contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;} */

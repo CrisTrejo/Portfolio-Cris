@@ -15,7 +15,7 @@ function Card({title, image, descripcion}) {
         <p>{descripcion}</p>
       </div> */}
       <h2>{title}</h2>
-        <p>{descripcion}</p>
+        <p className={s.p}>{descripcion}</p>
     </div>
   );
 }

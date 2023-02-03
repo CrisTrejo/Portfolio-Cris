@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/norwester');
 @import url('https://fonts.cdnfonts.com/css/resfire');
 body{
-    background: url(../Images/fondo1.png)no-repeat center center fixed;
+    background: url(../Images/fondo5.png)no-repeat center center fixed;
     
     max-width: 100%;
     height: auto;
@@ -18,7 +18,9 @@ body{
    padding-right: -83vw;
    flex-direction: column;
    justify-content: center;
-   
+   /* width: 70vw;
+    */
+    /* height: 60vh; */
     
     
     
@@ -27,12 +29,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* height: 50vh; */
 }
 .box{
     display: flex;
     justify-content: center;
     /* flex-direction: row; */
-    
+    height: 80vh;
 }
 /* .line{
     display: flex;
