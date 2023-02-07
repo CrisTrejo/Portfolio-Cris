@@ -34,6 +34,7 @@ Mis responsabilidades como Fontend Developer fueron:
 - Aplicación de lógica para la creación de ordenes de compra."
        />
       <Card 
+      enlace="https://github.com/CrisTrejo/alumnos-aulas"
       titulo="Alumnos"
       image={php} 
       descripcion="Wampserver, uso de php y PhpMyAdmin. Creacion de tablas con posibilidad de alta, modificacion y borrado de datos. Relación entra tablas alumnos y aulas. "
