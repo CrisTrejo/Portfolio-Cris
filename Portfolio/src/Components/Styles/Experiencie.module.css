@@ -1,0 +1,17 @@
+.experienceGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+  }
+  
+  .experienceCard{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    box-shadow: 2px 2px 10px #111;
+    filter: brightness(0.8);
+  }

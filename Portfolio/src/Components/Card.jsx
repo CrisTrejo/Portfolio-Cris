@@ -3,7 +3,7 @@ import s from './Styles/Card.module.css';
 import card1 from './Images/card1.png'
 
 
-function Card({title, image, descripcion}) {
+function Card({ image, descripcion, enlace, titulo}) {
   return (
     <div>
     <img className={s.img} src={image} alt="not found"/>
@@ -14,7 +14,7 @@ function Card({title, image, descripcion}) {
         <h2>{title}</h2>
         <p>{descripcion}</p>
       </div> */}
-      <h2>{title}</h2>
+      <a className={s.a} href={enlace}><h1>{titulo}</h1></a>
         <p className={s.p}>{descripcion}</p>
     </div>
   );

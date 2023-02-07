@@ -48,6 +48,12 @@ body{
 .font2{
     color: rgb(221, 221, 221);
 }
-/* .avatar{
-    padding-right: 5vw;
-} */
+.avatar{
+    flex-direction: column;
+    padding-top:100px;
+}
+.button{
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+}

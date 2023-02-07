@@ -1,63 +1,15 @@
-/* Estilos para el formulario */
-@import url('https://fonts.cdnfonts.com/css/digital-readout-expupright');
-@import url('https://fonts.cdnfonts.com/css/resfire');
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    font-family: 'Digital Readout ExpUpright', sans-serif;
-    color: greenyellow;
-    padding-top: 20vh;
-  }
-  
-  
-  /* Estilos para las etiquetas */
-  label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  /* Estilos para los campos de entrada */
-  input,
-  textarea {
-    font-size: 16px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: 'Norwester', sans-serif;
-  }
-  
-  input[type="text"],
-  input[type="email"] {
-    flex: 1;
-    margin-bottom: 10px;
-   
-  }
-  
-  textarea {
-    resize: none;
-    flex: 1;
- 
-  }
-  
-  /* Estilos para el botón de envío */
-  button[type="submit"] {
-    font-size: 16px;
-    background-color: #00b8d4;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  
-    
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0052cc;
- 
-  }
+.container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vw;
+  width: 50vw;
+  background-color: #333;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+ flex-direction: column;
+ margin: 6%;
+}

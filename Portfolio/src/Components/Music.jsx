@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { reproducirMusica, pausarMusica } from '../Redux/Actions';
 import renegade from './Music/renegade.mp3'
+import s from '../Components/Styles/Music.module.css'
 
 
 export default function  Music  ()  {
@@ -28,14 +29,14 @@ export default function  Music  ()  {
   }
 
   return (
-    <div>
+    <div className={s.container}>
       <audio id="miReproductor" src={renegade} type="audio/mpeg">
         Tu navegador no admite el elemento audio.
       </audio>
       {musica ? (
         <button onClick={pausarMusicaa}>Pausar</button>
       ) : (
-        <button onClick={reproducirMusicaa}>Reproducir</button>
+        <button onClick={reproducirMusicaa}>PLAY MUSIC!</button>
       )}
     </div>
   );
