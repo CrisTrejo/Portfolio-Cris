@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Components/Styles/Main.css';
 import App from './App';
+import '../src/index.css';
 
 import reportWebVitals from './reportWebVitals';
 import {Provider} from 'react-redux'

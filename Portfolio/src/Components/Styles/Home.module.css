@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/norwester');
 @import url('https://fonts.cdnfonts.com/css/resfire');
-body{
+/* body{
     background: url(../Images/fondo5.png)no-repeat center center fixed;
-    
     max-width: 100%;
     height: auto;
     background-color: black;
-}
+    cursor: url("../Images/defaultMouse.png"),url("../Images/clickMouse.png"), auto;
+} */
 .font{
     display: flex;
     font-family: 'Norwester', sans-serif;

@@ -18,7 +18,7 @@ export default function  Home  ()  {
     <div className={s.row}>
     <div className={s.font}>
     <h1 className={s.font2}>CRIS+TREJO+LA+VALLE</h1>
-    <h1>FULL+ STACK+DEVELOPER</h1>
+    <h1>FULL+STACK+DEVELOPER</h1>
     {/* <br></br> */}
     {/* <br></br> */}
     {/* <h1>DEVELOPER</h1> */}

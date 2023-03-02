@@ -1,0 +1,38 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:40vw;
+    width: 60vw;
+     background-color: #333;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     border-radius: 1rem;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* margin: 1rem; */
+
+}
+.titulo{
+    font-family: 'Digital Readout ExpUpright', sans-serif;                                  
+    color:rgb(96, 208, 21);
+    font-size: 25px;
+}
+
+.contenido img{
+   height: 23vh;
+   width: 15vw;
+
+}
+.contenido p{
+    margin: 4rem;
+   font-size:20px;
+   font-family: 'Norwester', sans-serif;
+   color: rgb(210, 222, 206);
+}

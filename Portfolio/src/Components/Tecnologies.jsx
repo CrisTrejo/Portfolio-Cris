@@ -14,8 +14,10 @@ import Navbar from './NavBar'
 
 export default function  Tecnologies  ()  {
   return (
-    <div className={s.box}>
+    <div>
     <Navbar></Navbar>
+    <div className={s.box}>
+    <div className={s.contenido}>
     <h1 className={s.font}>Frontend</h1>
     <div>
     <img src= {react} alt='not found'/>
@@ -33,6 +35,8 @@ export default function  Tecnologies  ()  {
     <div>
     <img src= {postgre} alt='not found'/>
     <img src= {mysql} alt='not found'/>
+    </div>
+    </div>
     </div>
     </div>
   )
