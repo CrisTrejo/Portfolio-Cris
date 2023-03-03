@@ -31,7 +31,7 @@ export default function  Home  ()  {
  
 
     <div className={s.avatar} style={{width:'30vw', height:'70vh',display:'flex' }}> 
-    <Music></Music>
+    {/* <Music></Music> */}
     <Canvas camera={{zoom: 15, position:[-8,2,25]}}>
     
       <ambientLight intensity={0.5}/>
